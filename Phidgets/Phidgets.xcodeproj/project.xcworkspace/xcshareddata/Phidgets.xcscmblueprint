@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "85d34554-6c23-0410-83e5-fd533e7904fc++1459",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "85d34554-6c23-0410-83e5-fd533e7904fc++1459" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "85d34554-6c23-0410-83e5-fd533e7904fc++1459" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6017B0F5-C280-47EC-9457-758D0D4174F3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "85d34554-6c23-0410-83e5-fd533e7904fc++1459" : "software\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Phidgets",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "examples22\/iOS\/Phidgets\/Phidgets.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/sl\/phidgets",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "85d34554-6c23-0410-83e5-fd533e7904fc++1459"
+    }
+  ]
+}

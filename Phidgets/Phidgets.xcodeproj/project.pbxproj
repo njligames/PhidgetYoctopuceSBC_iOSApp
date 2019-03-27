@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72076A501C46C73A00B35C71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72076A4F1C46C73A00B35C71 /* main.m */; };
+		72076A531C46C73A00B35C71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72076A521C46C73A00B35C71 /* AppDelegate.m */; };
+		72076A561C46C73A00B35C71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72076A551C46C73A00B35C71 /* ViewController.m */; };
+		72076A591C46C73A00B35C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72076A571C46C73A00B35C71 /* Main.storyboard */; };
+		72076A5B1C46C73A00B35C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72076A5A1C46C73A00B35C71 /* Assets.xcassets */; };
+		72076A5E1C46C73A00B35C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72076A5C1C46C73A00B35C71 /* LaunchScreen.storyboard */; };
+		72076A841C46D6B500B35C71 /* Phidgets-HexLogo-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 72076A831C46D6B500B35C71 /* Phidgets-HexLogo-Icon.png */; };
+		72076A861C46D77000B35C71 /* Phidgets-HexLogo-Icon-White.png in Resources */ = {isa = PBXBuildFile; fileRef = 72076A851C46D77000B35C71 /* Phidgets-HexLogo-Icon-White.png */; };
+		7248D4601C46E62C00369F79 /* PhidgetManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7248D45F1C46E62C00369F79 /* PhidgetManagerController.m */; };
+		7248D4761C4803E300369F79 /* DigitalOutputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7248D4751C4803E300369F79 /* DigitalOutputViewController.m */; };
+		724C0BE81C498E6C008B69EA /* VoltageInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 724C0BE71C498E6C008B69EA /* VoltageInputViewController.m */; };
+		7256A0D91C482FFE000906A1 /* PhidgetInfoBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7256A0D71C482FFE000906A1 /* PhidgetInfoBoxViewController.m */; };
+		7256A0DA1C482FFE000906A1 /* PhidgetInfoBoxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7256A0D81C482FFE000906A1 /* PhidgetInfoBoxViewController.xib */; };
+		725CF7871C4979CF002E2003 /* DigitalInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 725CF7861C4979CF002E2003 /* DigitalInputViewController.m */; };
+		7280FD771C90C09A003F3A05 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280FD761C90C09A003F3A05 /* TableViewController.m */; };
+		729A5C9B1C5184C5003FD37C /* ServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729A5C9A1C5184C5003FD37C /* ServerViewController.m */; };
+		729A5C9E1C52A5AA003FD37C /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729A5C9D1C52A5AA003FD37C /* WebsiteViewController.m */; };
+		72E7078C1DAE8B0600903550 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E7078B1DAE8B0600903550 /* PickerViewController.m */; };
+		72FEC2AA1C8F4D8F000E7950 /* ComputerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FEC2A51C8F4D8F000E7950 /* ComputerNode.m */; };
+		72FEC2AB1C8F4D8F000E7950 /* HubPortNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FEC2A71C8F4D8F000E7950 /* HubPortNode.m */; };
+		72FEC2AC1C8F4D8F000E7950 /* PhidgetTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FEC2A91C8F4D8F000E7950 /* PhidgetTreeNode.m */; };
+		72FEC2AF1C8F4E6B000E7950 /* PhidgetChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FEC2AE1C8F4E6B000E7950 /* PhidgetChannel.m */; };
+		72FEC2B81C8F504A000E7950 /* PhidgetDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FEC2B71C8F504A000E7950 /* PhidgetDevice.m */; };
+		72FFED5F1C49AB3C003660BA /* VoltageRatioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FFED5E1C49AB3C003660BA /* VoltageRatioViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72076A4B1C46C73A00B35C71 /* Phidgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phidgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72076A4F1C46C73A00B35C71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72076A511C46C73A00B35C71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72076A521C46C73A00B35C71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72076A541C46C73A00B35C71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72076A551C46C73A00B35C71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		72076A581C46C73A00B35C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72076A5A1C46C73A00B35C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72076A5D1C46C73A00B35C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72076A5F1C46C73A00B35C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72076A831C46D6B500B35C71 /* Phidgets-HexLogo-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Phidgets-HexLogo-Icon.png"; path = "../Company Logo/Phidgets-HexLogo-Icon.png"; sourceTree = "<group>"; };
+		72076A851C46D77000B35C71 /* Phidgets-HexLogo-Icon-White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Phidgets-HexLogo-Icon-White.png"; path = "../Company Logo/Phidgets-HexLogo-Icon-White.png"; sourceTree = "<group>"; };
+		7248D45E1C46E62C00369F79 /* PhidgetManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhidgetManagerController.h; path = ../PhidgetManagerController.h; sourceTree = "<group>"; };
+		7248D45F1C46E62C00369F79 /* PhidgetManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = PhidgetManagerController.m; path = ../PhidgetManagerController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		7248D4661C46F41000369F79 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		7248D46B1C4702F600369F79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7248D46D1C4702FC00369F79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7248D46F1C47030400369F79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7248D4741C4803E300369F79 /* DigitalOutputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DigitalOutputViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		7248D4751C4803E300369F79 /* DigitalOutputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DigitalOutputViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		724C0BE61C498E6C008B69EA /* VoltageInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = VoltageInputViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		724C0BE71C498E6C008B69EA /* VoltageInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = VoltageInputViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		7256A0D61C482FFE000906A1 /* PhidgetInfoBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhidgetInfoBoxViewController.h; sourceTree = "<group>"; };
+		7256A0D71C482FFE000906A1 /* PhidgetInfoBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhidgetInfoBoxViewController.m; sourceTree = "<group>"; };
+		7256A0D81C482FFE000906A1 /* PhidgetInfoBoxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhidgetInfoBoxViewController.xib; sourceTree = "<group>"; };
+		725CF7851C4979CF002E2003 /* DigitalInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DigitalInputViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		725CF7861C4979CF002E2003 /* DigitalInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DigitalInputViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		7280FD751C90C09A003F3A05 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		7280FD761C90C09A003F3A05 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		729A5C991C5184C5003FD37C /* ServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerViewController.h; sourceTree = "<group>"; };
+		729A5C9A1C5184C5003FD37C /* ServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerViewController.m; sourceTree = "<group>"; };
+		729A5C9C1C52A5AA003FD37C /* WebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsiteViewController.h; sourceTree = "<group>"; };
+		729A5C9D1C52A5AA003FD37C /* WebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsiteViewController.m; sourceTree = "<group>"; };
+		72E7078A1DAE8B0600903550 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		72E7078B1DAE8B0600903550 /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PickerViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		72FEC2A41C8F4D8F000E7950 /* ComputerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputerNode.h; sourceTree = "<group>"; };
+		72FEC2A51C8F4D8F000E7950 /* ComputerNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputerNode.m; sourceTree = "<group>"; };
+		72FEC2A61C8F4D8F000E7950 /* HubPortNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HubPortNode.h; sourceTree = "<group>"; };
+		72FEC2A71C8F4D8F000E7950 /* HubPortNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HubPortNode.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		72FEC2A81C8F4D8F000E7950 /* PhidgetTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhidgetTreeNode.h; sourceTree = "<group>"; };
+		72FEC2A91C8F4D8F000E7950 /* PhidgetTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhidgetTreeNode.m; sourceTree = "<group>"; };
+		72FEC2AD1C8F4E6B000E7950 /* PhidgetChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhidgetChannel.h; sourceTree = "<group>"; };
+		72FEC2AE1C8F4E6B000E7950 /* PhidgetChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhidgetChannel.m; sourceTree = "<group>"; };
+		72FEC2B61C8F504A000E7950 /* PhidgetDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhidgetDevice.h; sourceTree = "<group>"; };
+		72FEC2B71C8F504A000E7950 /* PhidgetDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhidgetDevice.m; sourceTree = "<group>"; };
+		72FFED5D1C49AB3C003660BA /* VoltageRatioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = VoltageRatioViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		72FFED5E1C49AB3C003660BA /* VoltageRatioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = VoltageRatioViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C185F8E1224AFDC60015C396 /* phidget22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = phidget22.h; path = ../Phidget22iOS/phidget22.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72076A481C46C73A00B35C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72076A421C46C73A00B35C71 = {
+			isa = PBXGroup;
+			children = (
+				C185F8E1224AFDC60015C396 /* phidget22.h */,
+				7256A0D61C482FFE000906A1 /* PhidgetInfoBoxViewController.h */,
+				7256A0D71C482FFE000906A1 /* PhidgetInfoBoxViewController.m */,
+				7256A0D81C482FFE000906A1 /* PhidgetInfoBoxViewController.xib */,
+				7248D4681C46F42600369F79 /* Frameworks */,
+				72076A821C46D65200B35C71 /* Images */,
+				72076A4C1C46C73A00B35C71 /* Products */,
+				72076A4D1C46C73A00B35C71 /* Phidgets */,
+			);
+			sourceTree = "<group>";
+		};
+		72076A4C1C46C73A00B35C71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72076A4B1C46C73A00B35C71 /* Phidgets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72076A4D1C46C73A00B35C71 /* Phidgets */ = {
+			isa = PBXGroup;
+			children = (
+				7280FD741C90AC85003F3A05 /* Supporting View Controllers */,
+				729A5C9F1C52BABB003FD37C /* Supporting Files */,
+				724C0BE91C498F02008B69EA /* Device View Controllers */,
+				7248D45E1C46E62C00369F79 /* PhidgetManagerController.h */,
+				7248D45F1C46E62C00369F79 /* PhidgetManagerController.m */,
+				7280FD751C90C09A003F3A05 /* TableViewController.h */,
+				7280FD761C90C09A003F3A05 /* TableViewController.m */,
+				72076A571C46C73A00B35C71 /* Main.storyboard */,
+				72076A5A1C46C73A00B35C71 /* Assets.xcassets */,
+				72076A5C1C46C73A00B35C71 /* LaunchScreen.storyboard */,
+				72076A5F1C46C73A00B35C71 /* Info.plist */,
+				72076A4E1C46C73A00B35C71 /* Supporting Files */,
+			);
+			path = Phidgets;
+			sourceTree = "<group>";
+		};
+		72076A4E1C46C73A00B35C71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72076A4F1C46C73A00B35C71 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72076A821C46D65200B35C71 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				72076A831C46D6B500B35C71 /* Phidgets-HexLogo-Icon.png */,
+				72076A851C46D77000B35C71 /* Phidgets-HexLogo-Icon-White.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		7248D4681C46F42600369F79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7248D46F1C47030400369F79 /* Foundation.framework */,
+				7248D46D1C4702FC00369F79 /* UIKit.framework */,
+				7248D46B1C4702F600369F79 /* QuartzCore.framework */,
+				7248D4661C46F41000369F79 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		724C0BE91C498F02008B69EA /* Device View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7248D4741C4803E300369F79 /* DigitalOutputViewController.h */,
+				7248D4751C4803E300369F79 /* DigitalOutputViewController.m */,
+				725CF7851C4979CF002E2003 /* DigitalInputViewController.h */,
+				725CF7861C4979CF002E2003 /* DigitalInputViewController.m */,
+				724C0BE61C498E6C008B69EA /* VoltageInputViewController.h */,
+				724C0BE71C498E6C008B69EA /* VoltageInputViewController.m */,
+				72FFED5D1C49AB3C003660BA /* VoltageRatioViewController.h */,
+				72FFED5E1C49AB3C003660BA /* VoltageRatioViewController.m */,
+			);
+			name = "Device View Controllers";
+			sourceTree = "<group>";
+		};
+		7280FD741C90AC85003F3A05 /* Supporting View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72E7078A1DAE8B0600903550 /* PickerViewController.h */,
+				72E7078B1DAE8B0600903550 /* PickerViewController.m */,
+				729A5C9C1C52A5AA003FD37C /* WebsiteViewController.h */,
+				729A5C9D1C52A5AA003FD37C /* WebsiteViewController.m */,
+				72076A541C46C73A00B35C71 /* ViewController.h */,
+				72076A551C46C73A00B35C71 /* ViewController.m */,
+				729A5C991C5184C5003FD37C /* ServerViewController.h */,
+				729A5C9A1C5184C5003FD37C /* ServerViewController.m */,
+			);
+			name = "Supporting View Controllers";
+			sourceTree = "<group>";
+		};
+		729A5C9F1C52BABB003FD37C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72076A511C46C73A00B35C71 /* AppDelegate.h */,
+				72076A521C46C73A00B35C71 /* AppDelegate.m */,
+				72FEC2AD1C8F4E6B000E7950 /* PhidgetChannel.h */,
+				72FEC2AE1C8F4E6B000E7950 /* PhidgetChannel.m */,
+				72FEC2A41C8F4D8F000E7950 /* ComputerNode.h */,
+				72FEC2A51C8F4D8F000E7950 /* ComputerNode.m */,
+				72FEC2A61C8F4D8F000E7950 /* HubPortNode.h */,
+				72FEC2A71C8F4D8F000E7950 /* HubPortNode.m */,
+				72FEC2A81C8F4D8F000E7950 /* PhidgetTreeNode.h */,
+				72FEC2A91C8F4D8F000E7950 /* PhidgetTreeNode.m */,
+				72FEC2B61C8F504A000E7950 /* PhidgetDevice.h */,
+				72FEC2B71C8F504A000E7950 /* PhidgetDevice.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72076A4A1C46C73A00B35C71 /* Phidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72076A781C46C73A00B35C71 /* Build configuration list for PBXNativeTarget "Phidgets" */;
+			buildPhases = (
+				72076A471C46C73A00B35C71 /* Sources */,
+				72076A491C46C73A00B35C71 /* Resources */,
+				72076A481C46C73A00B35C71 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Phidgets;
+			productName = Phidgets;
+			productReference = 72076A4B1C46C73A00B35C71 /* Phidgets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72076A431C46C73A00B35C71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Phidgets;
+				TargetAttributes = {
+					72076A4A1C46C73A00B35C71 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = SRBQ5SCF5X;
+					};
+				};
+			};
+			buildConfigurationList = 72076A461C46C73A00B35C71 /* Build configuration list for PBXProject "Phidgets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 72076A421C46C73A00B35C71;
+			productRefGroup = 72076A4C1C46C73A00B35C71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72076A4A1C46C73A00B35C71 /* Phidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72076A491C46C73A00B35C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7256A0DA1C482FFE000906A1 /* PhidgetInfoBoxViewController.xib in Resources */,
+				72076A5E1C46C73A00B35C71 /* LaunchScreen.storyboard in Resources */,
+				72076A841C46D6B500B35C71 /* Phidgets-HexLogo-Icon.png in Resources */,
+				72076A861C46D77000B35C71 /* Phidgets-HexLogo-Icon-White.png in Resources */,
+				72076A5B1C46C73A00B35C71 /* Assets.xcassets in Resources */,
+				72076A591C46C73A00B35C71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72076A471C46C73A00B35C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72076A561C46C73A00B35C71 /* ViewController.m in Sources */,
+				72FEC2AA1C8F4D8F000E7950 /* ComputerNode.m in Sources */,
+				72FEC2B81C8F504A000E7950 /* PhidgetDevice.m in Sources */,
+				72FEC2AC1C8F4D8F000E7950 /* PhidgetTreeNode.m in Sources */,
+				72E7078C1DAE8B0600903550 /* PickerViewController.m in Sources */,
+				72FEC2AB1C8F4D8F000E7950 /* HubPortNode.m in Sources */,
+				7248D4601C46E62C00369F79 /* PhidgetManagerController.m in Sources */,
+				72076A531C46C73A00B35C71 /* AppDelegate.m in Sources */,
+				729A5C9E1C52A5AA003FD37C /* WebsiteViewController.m in Sources */,
+				724C0BE81C498E6C008B69EA /* VoltageInputViewController.m in Sources */,
+				72FEC2AF1C8F4E6B000E7950 /* PhidgetChannel.m in Sources */,
+				725CF7871C4979CF002E2003 /* DigitalInputViewController.m in Sources */,
+				7248D4761C4803E300369F79 /* DigitalOutputViewController.m in Sources */,
+				72076A501C46C73A00B35C71 /* main.m in Sources */,
+				7256A0D91C482FFE000906A1 /* PhidgetInfoBoxViewController.m in Sources */,
+				7280FD771C90C09A003F3A05 /* TableViewController.m in Sources */,
+				729A5C9B1C5184C5003FD37C /* ServerViewController.m in Sources */,
+				72FFED5F1C49AB3C003660BA /* VoltageRatioViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72076A571C46C73A00B35C71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72076A581C46C73A00B35C71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72076A5C1C46C73A00B35C71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72076A5D1C46C73A00B35C71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72076A761C46C73A00B35C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Phidgets/Phidgets.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited) ";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72076A771C46C73A00B35C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Phidgets/Phidgets.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited) ";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72076A791C46C73A00B35C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Phidgets/Phidgets.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SRBQ5SCF5X;
+				ENABLE_ONLY_ACTIVE_RESOURCES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				INFOPLIST_FILE = Phidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = ../Phidget22iOS/iphoneos/libPhidget22.a;
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = ../Phidget22iOS/iphonesimulator/libPhidget22.a;
+				PRODUCT_BUNDLE_IDENTIFIER = Phidgets.PhidgetsOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		72076A7A1C46C73A00B35C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Phidgets/Phidgets.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SRBQ5SCF5X;
+				ENABLE_ONLY_ACTIVE_RESOURCES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				INFOPLIST_FILE = Phidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Phidgets.PhidgetsOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72076A461C46C73A00B35C71 /* Build configuration list for PBXProject "Phidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72076A761C46C73A00B35C71 /* Debug */,
+				72076A771C46C73A00B35C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72076A781C46C73A00B35C71 /* Build configuration list for PBXNativeTarget "Phidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72076A791C46C73A00B35C71 /* Debug */,
+				72076A7A1C46C73A00B35C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72076A431C46C73A00B35C71 /* Project object */;
+}
